@@ -1,10 +1,9 @@
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef } from "react"
 import { useForm } from "../hooks/useForm"
 
 export const FormularioComponent = () => {
 
     const focusRef = useRef()
-    console.log(focusRef)
 
     const initialForm = {
         username: '',
