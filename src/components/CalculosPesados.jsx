@@ -1,9 +1,5 @@
 import { useMemo, useState } from "react"
 
-
-
-
-
 export const CalculosPesados = () => {
 
     const [listanumeros, setListanumeros] = useState([1, 2, 3, 4, 5])
